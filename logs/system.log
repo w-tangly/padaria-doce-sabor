@@ -1,0 +1,85 @@
+{"timestamp":"2025-10-01T11:42:07.489Z","level":"INFO","message":"🚀 Sistema de padaria iniciado","data":null}
+{"timestamp":"2025-10-01T11:42:07.671Z","level":"ERROR","message":"Erro ao criar categoria Pães","data":{"error":"Maximum call stack size exceeded"}}
+{"timestamp":"2025-10-01T11:42:07.840Z","level":"ERROR","message":"Erro ao criar categoria Doces","data":{"error":"Maximum call stack size exceeded"}}
+{"timestamp":"2025-10-01T11:42:08.129Z","level":"ERROR","message":"Erro ao criar categoria Salgados","data":{"error":"Maximum call stack size exceeded"}}
+{"timestamp":"2025-10-01T11:42:08.423Z","level":"ERROR","message":"Erro ao criar categoria Bebidas","data":{"error":"Maximum call stack size exceeded"}}
+{"timestamp":"2025-10-01T11:42:08.425Z","level":"ERROR","message":"Erro ao criar produto Pão francês","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:42:08.426Z","level":"ERROR","message":"Erro ao criar produto Pão de açúcar","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:42:08.426Z","level":"ERROR","message":"Erro ao criar produto Brigadeiro","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:42:08.427Z","level":"ERROR","message":"Erro ao criar produto Coxinha","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:42:08.427Z","level":"ERROR","message":"Erro ao criar produto Café expresso","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:42:08.709Z","level":"ERROR","message":"Erro durante demonstração","data":{"error":"Maximum call stack size exceeded"}}
+{"timestamp":"2025-10-01T11:58:52.005Z","level":"INFO","message":"🚀 Sistema de padaria iniciado","data":null}
+{"timestamp":"2025-10-01T11:58:52.007Z","level":"ERROR","message":"Erro ao criar categoria Pães","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:58:52.008Z","level":"ERROR","message":"Erro ao criar categoria Doces","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:58:52.009Z","level":"ERROR","message":"Erro ao criar categoria Salgados","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:58:52.009Z","level":"ERROR","message":"Erro ao criar categoria Bebidas","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:58:52.010Z","level":"ERROR","message":"Erro ao criar produto Pão francês","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:58:52.011Z","level":"ERROR","message":"Erro ao criar produto Pão de açúcar","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:58:52.011Z","level":"ERROR","message":"Erro ao criar produto Brigadeiro","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:58:52.012Z","level":"ERROR","message":"Erro ao criar produto Coxinha","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:58:52.013Z","level":"ERROR","message":"Erro ao criar produto Café expresso","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.501Z","level":"INFO","message":"🚀 Sistema de padaria iniciado","data":null}
+{"timestamp":"2025-10-01T11:59:54.503Z","level":"ERROR","message":"Erro ao criar categoria Pães","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.504Z","level":"ERROR","message":"Erro ao criar categoria Doces","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.504Z","level":"ERROR","message":"Erro ao criar categoria Salgados","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.505Z","level":"ERROR","message":"Erro ao criar categoria Bebidas","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.506Z","level":"ERROR","message":"Erro ao criar produto Pão francês","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.506Z","level":"ERROR","message":"Erro ao criar produto Pão de açúcar","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.507Z","level":"ERROR","message":"Erro ao criar produto Brigadeiro","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.507Z","level":"ERROR","message":"Erro ao criar produto Coxinha","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T11:59:54.508Z","level":"ERROR","message":"Erro ao criar produto Café expresso","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.425Z","level":"INFO","message":"🚀 Sistema de padaria iniciado","data":null}
+{"timestamp":"2025-10-01T12:07:58.427Z","level":"ERROR","message":"Erro ao criar categoria Pães","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.428Z","level":"ERROR","message":"Erro ao criar categoria Doces","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.429Z","level":"ERROR","message":"Erro ao criar categoria Salgados","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.430Z","level":"ERROR","message":"Erro ao criar categoria Bebidas","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.431Z","level":"ERROR","message":"Erro ao criar produto Pão francês","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.431Z","level":"ERROR","message":"Erro ao criar produto Pão de açúcar","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.432Z","level":"ERROR","message":"Erro ao criar produto Brigadeiro","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.432Z","level":"ERROR","message":"Erro ao criar produto Coxinha","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T12:07:58.433Z","level":"ERROR","message":"Erro ao criar produto Café expresso","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.051Z","level":"INFO","message":"Sistema de padaria iniciado","data":null}
+{"timestamp":"2025-10-01T13:03:23.053Z","level":"ERROR","message":"Erro ao criar categoria Pães","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.054Z","level":"ERROR","message":"Erro ao criar categoria Doces","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.054Z","level":"ERROR","message":"Erro ao criar categoria Salgados","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.055Z","level":"ERROR","message":"Erro ao criar categoria Bebidas","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.056Z","level":"ERROR","message":"Erro ao criar produto Pão francês","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.056Z","level":"ERROR","message":"Erro ao criar produto Pão de açúcar","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.057Z","level":"ERROR","message":"Erro ao criar produto Brigadeiro","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.057Z","level":"ERROR","message":"Erro ao criar produto Coxinha","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.058Z","level":"ERROR","message":"Erro ao criar produto Café expresso","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:03:23.059Z","level":"SUCCESS","message":"Demonstração concluída com sucesso","data":null}
+{"timestamp":"2025-10-01T13:05:30.475Z","level":"INFO","message":"Sistema de padaria iniciado","data":null}
+{"timestamp":"2025-10-01T13:05:30.477Z","level":"ERROR","message":"Erro ao criar categoria Pães","data":{"error":"this.FileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.478Z","level":"ERROR","message":"Erro ao criar categoria Doces","data":{"error":"this.FileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.478Z","level":"ERROR","message":"Erro ao criar categoria Salgados","data":{"error":"this.FileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.479Z","level":"ERROR","message":"Erro ao criar categoria Bebidas","data":{"error":"this.FileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.480Z","level":"ERROR","message":"Erro ao criar produto Pão francês","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.481Z","level":"ERROR","message":"Erro ao criar produto Pão de açúcar","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.481Z","level":"ERROR","message":"Erro ao criar produto Brigadeiro","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.482Z","level":"ERROR","message":"Erro ao criar produto Coxinha","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.483Z","level":"ERROR","message":"Erro ao criar produto Café expresso","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:05:30.484Z","level":"SUCCESS","message":"Demonstração concluída com sucesso","data":null}
+{"timestamp":"2025-10-01T13:08:17.707Z","level":"INFO","message":"Sistema de padaria iniciado","data":null}
+{"timestamp":"2025-10-01T13:08:17.709Z","level":"ERROR","message":"Erro ao criar categoria Pães","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.710Z","level":"ERROR","message":"Erro ao criar categoria Doces","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.711Z","level":"ERROR","message":"Erro ao criar categoria Salgados","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.711Z","level":"ERROR","message":"Erro ao criar categoria Bebidas","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.712Z","level":"ERROR","message":"Erro ao criar produto Pão francês","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.713Z","level":"ERROR","message":"Erro ao criar produto Pão de açúcar","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.713Z","level":"ERROR","message":"Erro ao criar produto Brigadeiro","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.714Z","level":"ERROR","message":"Erro ao criar produto Coxinha","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.714Z","level":"ERROR","message":"Erro ao criar produto Café expresso","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:08:17.716Z","level":"SUCCESS","message":"Demonstração concluída com sucesso","data":null}
+{"timestamp":"2025-10-01T13:15:57.708Z","level":"INFO","message":"Sistema de padaria iniciado","data":null}
+{"timestamp":"2025-10-01T13:15:57.710Z","level":"ERROR","message":"Erro ao criar categoria Pães","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.711Z","level":"ERROR","message":"Erro ao criar categoria Doces","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.711Z","level":"ERROR","message":"Erro ao criar categoria Salgados","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.712Z","level":"ERROR","message":"Erro ao criar categoria Bebidas","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.713Z","level":"ERROR","message":"Erro ao criar produto Pão francês","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.714Z","level":"ERROR","message":"Erro ao criar produto Pão de açúcar","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.714Z","level":"ERROR","message":"Erro ao criar produto Brigadeiro","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.715Z","level":"ERROR","message":"Erro ao criar produto Coxinha","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.715Z","level":"ERROR","message":"Erro ao criar produto Café expresso","data":{"error":"this.fileHelper.writeJSON is not a function"}}
+{"timestamp":"2025-10-01T13:15:57.717Z","level":"SUCCESS","message":"Demonstração concluída com sucesso","data":null}

@@ -5,7 +5,7 @@ const path = require('path');
 class CategoryController{
     constructor() {
         this.dataPath = path.join(__dirname, '..', 'data', 'categories.json');
-        this.FileHelper = new FileHelper();
+        this.fileHelper = new FileHelper();
     }
 
     // criar nova categoria
@@ -14,7 +14,9 @@ class CategoryController{
             const categories = await this.getAllCategories();
 
             // verifica se a categoria já existe
-            const existingCategory = categories.find(c => c.name.toLowerCase() === categoryData.name.toLowerCase());
+            const existingCategory = categories.find(c => 
+                c.name.toLowerCase() === categoryData.name.toLowerCase()
+            );
 
             if (existingCategory) {
                 throw new Error(`Categoria "${categoryData.name}" já existe!`);
@@ -26,12 +28,12 @@ class CategoryController{
             );
 
             categories.push(newCategory);
-            await this.FileHelper.writeJSON(this.dataPath, categories);
+            await this.fileHelper.writeJSON(this.dataPath, categories);
 
             console.log(`Categoria "${newCategory.name}" criada com sucesso!`);
             return newCategory;
         } catch (error) {
-            console.error('Erro ao criar categoria:', error.message);
+            console.error('❌ Erro ao criar categoria:', error.message);
             throw error;
         }
     }
@@ -39,16 +41,27 @@ class CategoryController{
     // listar todas as categorias
     async getAllCategories (){
         try{
+            const categories = await this.fileHelper.readJSON(this.dataPath);
+            return categories || [];
+        } catch(error) {
+            console.error('📁 Arquivo de categorias não encontrado, criando novo...');
+            return [];
+        }
+    }
+
+    // buscar categoria por ID
+    async getCategoryById(id){
+        try{
             const categories = await this.getAllCategories();
             const category = categories.find(c => c.id === id);
 
             if(!category){
-                throw new Error(`Categoria com ID "${id}" não encontrada`);
+                throw new Error(`Categoria com ID ${id} não encontrada`);
             }
 
             return category;
-        } catch(error) {
-            console.error('Erro ao buscar categoria:', error.message);
+        } catch (error) {
+            console.error('❌ Erro ao buscar categoria:', error.message);
             throw error;
         }
     }
@@ -57,19 +70,19 @@ class CategoryController{
     async deleteCategory(id){
         try{
             const categories = await this.getAllCategories();
-            const categoryIndex = categories.findIndex(c=>c.id===id);
+            const categoryIndex = categories.findIndex(c => c.id === id);
 
             if(categoryIndex === -1){
                 throw new Error(`Categoria com ID "${id} não encontrada`);
             }        
 
             const deletedCategory = categories.splice(categoryIndex, 1)[0];
-            await this.FileHelper.writeJSON(this.dataPath, categories);
+            await this.fileHelper.writeJSON(this.dataPath, categories);
 
-            console.log(`Categoria "${deletedCategory.name}" deletada!`);
+            console.log(`🗑️ Categoria "${deletedCategory.name}" deletada!`);
             return deletedCategory;
         } catch (error) {
-            console.error('Erro ao deletar categoria:', error.message);
+            console.error('❌ Erro ao deletar categoria:', error.message);
             throw error;
         }
     }

@@ -41,7 +41,7 @@ class ProductController{
             const products = await this.fileHelper.readJSON(this.dataPath);
             return products || [];
         }catch (error){
-            console.log('Arquivo de produtos não, criando novo...');
+            console.log('Arquivo de produtos não encontrado, criando novo...');
             return [];
         }
     }

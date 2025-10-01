@@ -1,7 +1,6 @@
 // pega as coisas necessárias para o programa
 const fs = require('fs').promises;
 const path = require('path');
-const { json } = require('stream/consumers');
 
 // static = funções que funcionam sem precisar criar um objeto primeiro
 class FileHelper{

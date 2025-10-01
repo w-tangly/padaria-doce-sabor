@@ -13,9 +13,9 @@ class PadariaSystem {
     async init(){
         try{
             console.log('=== 🍞 SISTEMA DA PADARIA ===');
-            console.log('Inicializando sistema...');
+            console.log('🚀 Inicializando sistema...');
 
-            await this.logger.info('🚀 Sistema de padaria iniciado');
+            await this.logger.info('Sistema de padaria iniciado');
 
             // chama a função que cria categorias padrão
             await this.createDefaultCategories();
@@ -29,7 +29,7 @@ class PadariaSystem {
             console.log('\n✅ Sistema inicializado com sucesso!');
         } catch (error) {
             await this.logger.error('Erro ao inicializar o sistema', { error: error.message });
-            console.error('Erro ao inicializar:', error.message);
+            console.error('❌ Erro ao inicializar:', error.message);
         }
     }
 
@@ -67,7 +67,7 @@ class PadariaSystem {
             { name: 'Pão de açúcar', price: 4.50, category: 'Pães' ,description: 'Pão doce com açúcar cristal' },
             { name: 'Brigadeiro', price: 2.00, category: 'Doces' ,description: 'Brigadeiro tradicional' },
             { name: 'Coxinha', price: 3.50, category: 'Salgados' ,description: 'Coxinha de frango' },
-            { name: 'Café expresso', price: 2.50, category: 'Bebidas' ,description: 'Café expresso forte' },
+            { name: 'Café expresso', price: 2.50, category: 'Bebidas' ,description: 'Café expresso forte' }
         ];
 
         for (const productData of sampleProducts){
@@ -90,7 +90,7 @@ class PadariaSystem {
             const allProducts = await this.productController.getAllProducts();
             allProducts.forEach(product => {
                 console.log(` • ${product.name} - R$ ${product.price.toFixed(2)} (${product.category})`);
-            })
+            });
 
             // listar todas as categorias
             console.log('\n📁 Todas as categorias:');
@@ -104,17 +104,22 @@ class PadariaSystem {
             const paes = await this.productController.getProductsByCategory('Pães');
             paes.forEach(product => {
                 console.log(` • ${product.name} - R$ ${product.price.toFixed(2)}`);
-            })
+            });
 
             // demonstrar atualização de produto
             if (allProducts.length > 0){
                 const firstProduct = allProducts[0];
                 console.log(`\n✏️ Atualizando produto "${firstProduct.name}"...`);
-                await this.productController.updateProduct(firstProduct.id, {price: firstProduct.price + 0.10};)
+                await this.productController.updateProduct(firstProduct.id, {
+                    price: firstProduct.price + 0.10
+                });
             }
+
+            await this.logger.success('Demonstração concluída com sucesso');
+
         } catch(error) {
-            await this.logger.error('Erro durante demonstração', { error: error.message});
-            console.error('Erro durante demonstração:', error.message);
+            await this.logger.error('Erro durante demonstração', { error: error.message });
+            console.error('❌ Erro durante demonstração:', error.message);
         }
     }
 

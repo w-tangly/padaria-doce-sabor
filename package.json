@@ -1,15 +1,25 @@
 {
-  "name": "padaria-doce-sabor",
+  "name": "sistema-padaria",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "start": "node app.js",
+    "dev": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "padaria",
+    "nodejs",
+    "sistema",
+    "gerenciamento"
+  ],
+  "author": "Pedro Campos",
+  "license": "MIT",
+  "description": "Sistema completo para gerenciamento de padaria",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

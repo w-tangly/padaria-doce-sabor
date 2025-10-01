@@ -1,5 +1,3 @@
-const { act } = require("react");
-
 // Criando o molde de uma "seção" da padaria
 class Category{
     // função que roda quando criamos uma nova seção
